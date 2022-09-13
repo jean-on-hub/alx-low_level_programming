@@ -15,9 +15,12 @@ int main(void)
 	return (0);
 }
 
-void print_alphabet(void){
-    char c = 'a';
-    while(c<='z'){
-        _putchar(c);
-    }
+void print_alphabet(void)
+{
+	char c = 'a';
+	while(c<='z')
+	{
+		 _putchar(c);
+		 c++;
+	}
 }
